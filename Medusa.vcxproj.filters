@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{53339723-ab6d-4c80-9584-5a3148405878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sex.h">
+      <UniqueIdentifier>{3f8607c1-6e34-4038-ab2a-8f4f21fb0cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{5f39d3ae-1ca4-48e9-84e7-582264af65f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{a3410be5-98c5-4ffe-abb8-1a9d6f66d0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Themida">
+      <UniqueIdentifier>{a7a3ae92-1362-42f7-8dd6-4d5305ef5465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\custom.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tricks.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="rawdata.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="fonthelper.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="theme.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\custom.hpp">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_tricks.hpp" />
+    <ClInclude Include="font.hpp" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Themida\SecureEngineCustomVMs.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\SecureEngineCustomVMs_BorlandC_inline.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\SecureEngineCustomVMs_GNU_inline.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\SecureEngineCustomVMs_ICL_inline.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\SecureEngineCustomVMs_LCC_inline.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\SecureEngineCustomVMs_VC_inline.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="Themida\ThemidaSDK.h">
+      <Filter>Themida</Filter>
+    </ClInclude>
+    <ClInclude Include="dlldata.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="physmem.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="chats.h">
+      <Filter>sex.h</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\Roboto-Medium.ttf">
+      <Filter>font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\libcurl.lib" />
+    <Library Include="libs\library_x64.lib" />
+    <Library Include="physmeme-lib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Medusa.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Administrator\Desktop\medusa.ico" />
+  </ItemGroup>
+</Project>
